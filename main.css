@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin : 0 auto;
+    background-color: #10B981;
+    
+}
+button{
+    width: 11%;
+}
+header{
+    font-size: 7vh;
+    margin-top: 25px;
+    margin-left: 170px;
+}
+img{
+    width: 70px;
+    position:fixed;
+    margin-left: 90px;
+
+}
+.labelH{
+    margin-top: 20px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    margin-right: 14cm;
+}
+.labelT{
+    font-size: 4vh;
+    margin-left: 1cm;
+}
+.content{
+    margin: 0 auto;
+    text-align: center;
+}
+.links{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-size:4vh;
+    padding: 0.6rem;
+}
+.containerH{
+    display: flex;
+    flex-direction: column;
+}
+.qContainer{
+    border: 3px solid black;
+    margin-left:20px;
+    margin-top: 20px;
+    padding: 1rem;
+}
+.form{
+     margin-top: 100px;
+     width: 1200px;
+    
+}
+#home{
+    font-size:4vh;
+    padding: 0.6rem;
+    border: 1px solid rgb(106, 22, 185);
+    border-radius: 0.3rem;
+}
+#quiz{
+    font-size:4vh;
+    padding: 0.6rem;
+    margin-left: 70px;
+    border: 1px solid rgb(106, 22, 185);
+    border-radius: 0.3rem;
+}
+#hypotenuse{
+    margin-left: 70px;
+    padding: 0.4rem;
+    border: 1px solid rgb(106, 22, 185);
+    border-radius: 0.3rem;
+}
+#area{
+    padding : 0.6rem;
+    margin-left: 70px;
+    border: 1px solid rgb(106, 22, 185);
+    border-radius: 0.3rem;
+}
+
+#subBtn{
+    width: 5%;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding : 0.2rem;
+    background-color:#6EE7B7;
+    border-radius: 0.3rem;
+}
+#output{
+    font-weight: bold;
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 20px;
+    padding:0.6rem;
+    margin-top: 10px;
+    height: 2vh;
+}
+#head{
+    font-size: 0.9cm;
+    margin-left: 10px;
+}
+#calHyp{
+    display: flex;
+    width: 6%;
+    margin-left: 650px;
+    margin-top: 25px;
+    padding:0.4rem;
+    border-radius: 0.3rem;
+    background-color:#6EE7B7;
+}
+#valueA{
+    line-height: 5vh;
+    width:40%;
+}
+#valueB{
+    line-height: 5vh;
+    width: 40%;
+}
+#ans{
+    border:2px solid black;
+    padding: 1rem;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 400px;
+    font-weight: bolder;
+}
+#aot{
+    font-size: xx-large;
+    margin-left: 1cm;
+    margin-top: 1.5cm;
+}
+#calAr{
+    display: flex;
+    width: 6%;
+    margin-left: 350px;
+    margin-top: 25px;
+    padding:0.4rem;
+    border-radius: 0.3rem;
+    background-color:#6EE7B7;
+}
+#ansA{
+    border:2px solid black;
+    padding: 1rem;
+    margin-top: 10px;
+    margin-left: 170px;
+    font-weight: bolder;
+    width: 30%;
+}
+#base{
+    line-height: 3vh;
+}
+#height{
+    line-height: 3vh;
+}
+#hImg{
+    margin-left: 440px;
+    margin-top: 190px;
+    width: 400px;
+    border-style: none;
+}
