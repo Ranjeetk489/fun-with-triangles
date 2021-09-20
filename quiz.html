@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <img src="triangle.svg" alt="triangle">
-        <header id="top"><b>Fun with Triangles</b></header>
+        <header id="top"><b>Fun with <span id="triangles">Triangles</span></b></header>
         <div class = "links">
         <a href="index.html" id="home">Home</a>
         <a href="quiz.html" id="quiz">Quiz</a>
@@ -44,6 +44,39 @@
             <input type="radio" name="opt2" value = "95°">
             <label for="centroid">95°</label>
         </div>
+        <div class = "qContainer">
+            <h2 id="que3">A triangle that has no equal sides and no equal angles is known as</h2>
+              <input type="radio" name="opt3" value ="Isosceles Triangle" >
+              <label for = "Isosceles">Isosceles Triangle</label>
+              <input type="radio" name="opt3" value = "scalene">
+              <label for="midSegment">scalene triangle</label>
+              <input type="radio" name="opt3" value = "equilateral triangle">
+              <label for="equilateral">equilateral triangle</label>
+              <input type="radio" name="opt3" value = "right angle">
+              <label for="right">Right Angle</label>
+           </div>
+           <div class = "qContainer">
+            <h2 id="que4">A triangle that has 2 equal sides and 2 equal angles is known as</h2>
+              <input type="radio" name="opt4" value ="isosceles triangle" >
+              <label for = "Isosceles">Isosceles Triangle</label>
+              <input type="radio" name="opt4" value = "scalene trianglet" >
+              <label for="midSegment">scalene triangle</label>
+              <input type="radio" name="opt4" value = "equilateral triangle">
+              <label for="equilateral">equilateral triangle</label>
+              <input type="radio" name="opt4" value = "right angle">
+              <label for="right">Right Angle</label>
+           </div>
+           <div class = "qContainer">
+            <h2 id="que5">A triangle with the angle of 90° is called</h2>
+              <input type="radio" name="opt5" value ="vertical triangle" >
+              <label for="vertical">vertical triangle</label>
+              <input type="radio" name="opt5" value = "supplementary triangle" >
+              <label for="supplementary">supplementary triangle</label>
+              <input type="radio" name="opt5" value = "right angle triangle">
+              <label for="rightAngle">right angle triangle</label>
+              <input type="radio" name="opt5" value = "reflective triangle">
+              <label for="reflective">reflective triangle</label>
+           </div>
         </form>
         <button id="subBtn">Submit</button>
         <div id="output"></div>
