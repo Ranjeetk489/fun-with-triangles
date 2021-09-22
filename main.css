@@ -2,9 +2,9 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin : 0 auto;
+    margin :  auto;
     background-color: #e0ffff;
-    max-width: 400;
+    max-width: 800;
     
 }
 button{
@@ -65,6 +65,10 @@ img{
     border: 1px solid rgb(106, 22, 185);
     border-radius: 0.3rem;
 }
+#home:hover,#quiz:hover, #hypotenuse:hover,#area:hover,#SOA:hover{
+    background-color:#00bfff;
+    color:white;
+}
 #quiz{
     font-size:4vh;
     padding: 0.6rem;
@@ -79,6 +83,12 @@ img{
     border-radius: 0.3rem;
 }
 #area{
+    padding : 0.6rem;
+    margin-left: 70px;
+    border: 1px solid rgb(106, 22, 185);
+    border-radius: 0.3rem;
+}
+#SOA{
     padding : 0.6rem;
     margin-left: 70px;
     border: 1px solid rgb(106, 22, 185);
@@ -172,4 +182,85 @@ img{
 /* from home.html */
 #triangles{
     color: orange;
+}
+
+#SOAexplain{
+    font-size: 1.6rem;
+    margin-top: 40px;
+}
+#three{
+    color: blue;
+    font-weight:bold ;
+}
+
+#isOrnot{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#not{
+    color:red;
+    font-weight: bold;
+}
+
+.container1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left:10px;
+}
+
+#sideA{
+    margin-bottom: 30px;
+    line-height: 4vh;
+    margin-left: 40px;
+}
+#sideB{
+    margin-bottom: 30px;
+    line-height: 4vh;
+    margin-left: 40px;
+}
+
+#sideC{
+    margin-bottom: 30px;
+    line-height: 4vh;
+    margin-left: 40px;
+}
+#checkBtn{
+    width:auto;
+    padding: .7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 90px;
+    border: 1px solid orange;
+    border-radius: 0.8rem;
+}
+#checkBtn:hover{
+    background-color: darkorange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: .8rem;
+
+}
+
+#angRes{
+    position:fixed;
+    width:fit-content;
+    padding: 1rem;
+    font-weight: bold;
+    border: 4px solid orange;
+    margin-left: 12cm;
+    margin-bottom: 7cm;
+    overflow: hidden;
+}
+#intro{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: green;
+    margin-left: 2cm;
+    margin-top: 30px;
+    max-width: 30cm;
+    min-width: 400px;
 }
