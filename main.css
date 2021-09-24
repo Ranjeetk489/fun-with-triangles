@@ -256,3 +256,14 @@ header{
     max-width: 30cm;
     min-width: 400px;
 }
+#notice{
+    margin-left: 2cm;
+    margin-top: 1cm;
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid red;
+    width: fit-content;
+    padding: 0.3rem;
+    color: white;
+    background-color: red;
+}
