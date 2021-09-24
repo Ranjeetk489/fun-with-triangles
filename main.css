@@ -29,7 +29,7 @@ header{
     margin: 0 auto;
     text-align: center;
 }
-.links{
+.link{
     margin-top: 25px;
     margin-left: 70px;
     font-size:4vh;
@@ -150,6 +150,7 @@ header{
     padding:0.4rem;
     border-radius: 0.3rem;
     background-color:#6EE7B7;
+    margin-bottom: 1.5cm;
 }
 #ansA{
     border:2px solid black;
@@ -267,3 +268,29 @@ header{
     color: white;
     background-color: red;
 }
+footer {
+    text-align: center;
+    background-color: #118882;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+    object-position: bottom;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  img,
+  li {
+    display: inline;
+    color: #fff;
+  }
+  
+  img {
+    width: 40px;
+    padding: 1rem 0.2rem;
+  }
