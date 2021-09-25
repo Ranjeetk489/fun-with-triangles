@@ -10,7 +10,14 @@ function clickHandler(){
     const A = parseInt(sideA.value);
     const B = parseInt(sideB.value);  
     const C = parseInt(sideC.value);
+    if(sideA.value === ""|| sideB.value === ""|| sideC.value === ""){
+        message.style.display = "block";
+        message.style.color = "red";
+        message.innerText = "One or more input field is missing";
+    }
+    else{
     isTriagle(A,B,C);
+    }
 }
 
 function isTriagle(sideA , sideB, sideC){
@@ -35,7 +42,8 @@ function isTriagle(sideA , sideB, sideC){
             message.style.color = "red";
             message.innerText= "oh noo! The provided angles don't form a triangle";
         }
-    }else{
+    }
+    else{
         message.style.color = "red";
         message.innerText = "Invalid entry! angles can not be negative or zero"
     }
