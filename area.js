@@ -11,6 +11,10 @@ function showArea(){
     if(base.value>0 && height.value>0){
     calculateArea(base,height);
     }
+    else if(base.value === "" || height.value === ""){
+        answer.style.color = "red";
+        answer.innerText = "Both field inputs are required!";
+    }
     else{
         answer.style.color = "red";
         answer.innerText = "value of Base or Height can't be zero or negative Number, provide valid Input";

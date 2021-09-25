@@ -10,6 +10,10 @@ function checkValidInput(){
 if(valueA.value > 0 && valueB.value >0){
     calculateHypotenuse(valueA, valueB)
     }
+else if(valueA.value ===""|| valueB.value === ""){
+    answer.style.color = "red";
+    answer.innerText = "Both field inputs are required";
+}
 else{
     answer.style.color = "red";
     answer.innerText = "Input needs to be a Valid Input and both inputs must be greater than 0 ";
