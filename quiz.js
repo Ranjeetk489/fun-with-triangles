@@ -2,6 +2,7 @@ const quizForm = document.querySelector(".form");
 const subBtn = document.querySelector("#subBtn");
 const output = document.querySelector("#output");
 const calculate = document.querySelector("#form");
+const cal = document.querySelector("#for");
 output.style.display = "none";
 const correctAnswers = [
   "Midsegment",
